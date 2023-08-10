@@ -1,0 +1,72 @@
+[
+    {
+        "id": "dc0ae565-6b51-4618-8fe4-1df30738fa1b",
+        "name": "Javascript",
+        "description": "JavaScript es un lenguaje de programación ampliamente utilizado en el desarrollo web. Diseñado originalmente para agregar interactividad y dinamismo a las páginas web, JavaScript se ha convertido en un componente esencial de la creación de aplicaciones web modernas. Es un lenguaje de programación de alto nivel interpretado por los navegadores, lo que significa que se ejecuta directamente en el navegador del usuario sin necesidad de compilación previa. JavaScript se utiliza para manipular el contenido de las páginas web, responder a eventos del usuario, realizar peticiones a servidores para obtener o enviar datos, y crear efectos visuales y animaciones interactivas. Además de su uso en el front-end, JavaScript también puede ser utilizado en el desarrollo del back-end a través de entornos como Node.js.",
+        "authors": ["Brendan Eich"], 
+        "year": 1995,
+        "paradigms": ["Imperativa", "Orientada a Objetos", "Funcional", "Reactiva", "Eventos"],
+        "logo": "https://lh3.google.com/u/0/d/1dCgXGG_Ly2sFYCcHNHqw7qGZ8e_KL7a8=w1366-h657-iv1"
+    },
+
+    {
+        "id": "a9f87c4b-8e6d-4f5e-9c27-3a78e4d2b309",
+        "name": "Java",
+        "description": "Java es un lenguaje de programación popular y versátil conocido por su portabilidad y su enfoque en la programación orientada a objetos. Fue creado con el objetivo de ser independiente de la plataforma, lo que significa que el mismo código Java puede ejecutarse en diferentes sistemas operativos sin modificaciones. Java se utiliza en una amplia variedad de aplicaciones, desde desarrollo web hasta aplicaciones empresariales y aplicaciones móviles en dispositivos Android.",
+        "authors": ["James Gosling", "Mike Sheridan", "Patrick Naughton"],
+        "year": 1995,
+        "paradigms": ["Orientada a Objetos", "Estructurada", "Imperativa"],
+        "logo": "https://lh3.google.com/u/0/d/1jiwkU7tBV8r0vLhhsanE_IYvIl5x2YYe=w1366-h657-iv1"
+    },
+
+    {
+        "id": "c3e7b8a9-df1f-432f-87c0-23d9ea2d84d2",
+        "name": "Kotlin",
+        "description": "Kotlin es un lenguaje de programación moderno y conciso que se ejecuta en la máquina virtual de Java (JVM). Diseñado para mejorar la productividad de los desarrolladores, Kotlin combina conceptos de programación orientada a objetos y programación funcional. Es interoperable con Java, lo que permite a los desarrolladores utilizar bibliotecas y frameworks de Java en proyectos de Kotlin. Kotlin se utiliza en una variedad de aplicaciones, desde aplicaciones Android hasta desarrollo backend y frontend.",
+        "authors": ["JetBrains"],
+        "year": 2011,
+        "paradigms": ["Orientada a Objetos", "Funcional"],
+        "logo": "https://lh3.google.com/u/0/d/1sDivxsf3dyxwMZdsZ5XUWNBgYL5Brrcg=w1366-h657-iv1"
+    },
+
+    {
+        "id": "ef7d4f6e-1f83-4a72-b05a-87423b146010",
+        "name": "Python",
+        "description": "Python es un lenguaje de programación interpretado y de alto nivel conocido por su legibilidad y sintaxis elegante. Destaca por su enfoque en la legibilidad del código, lo que facilita la colaboración y el mantenimiento. Python se utiliza en una amplia gama de aplicaciones, como desarrollo web, análisis de datos, inteligencia artificial y scripting. Su amplia biblioteca estándar y una gran comunidad de desarrolladores hacen que Python sea una opción popular para diversos proyectos.",
+        "authors": ["Guido van Rossum"],
+        "year": 1991,
+        "paradigms": ["Multiparadigma", "Orientada a Objetos", "Funcional", "Estructurada"],
+        "logo": "https://lh3.google.com/u/0/d/13ubnRXEQvVDI30XdiXhqiyaBKN1DpO4v=w1366-h657-iv1"
+    },
+
+    {
+        "id": "bdcc9c62-8eb1-4f3a-91e1-9a9daa6cf8d3",
+        "name": "C plus plus",
+        "description": "C++ es una extensión del lenguaje de programación C que agrega características de programación orientada a objetos y otras mejoras. Es conocido por su rendimiento y flexibilidad, lo que lo hace adecuado para una amplia gama de aplicaciones, incluyendo sistemas embebidos, desarrollo de juegos y software de alto rendimiento. C++ permite tanto programación de alto nivel como manipulación de bajo nivel, lo que lo hace una opción poderosa pero desafiante para los desarrolladores.",
+        "authors": ["Bjarne Stroustrup"],
+        "year": 1985,
+        "paradigms": ["Multiparadigma", "Orientada a Objetos", "Estructurada"],
+        "logo": "https://lh3.google.com/u/0/d/1A4Hot7ShEkBoNjX3uufk2BCIGfbju_3Q=w1366-h657-iv1"
+    },
+
+    {
+        "id": "5e5c72e8-2d8a-41e3-9c59-4bfe065e26d8",
+        "name": "Go",
+        "description": "Go, también conocido como Golang, es un lenguaje de programación desarrollado por Google. Está diseñado para ser eficiente, simple y rápido en términos de compilación y ejecución. Go se utiliza principalmente en aplicaciones de backend y sistemas distribuidos. Su sintaxis concisa y su enfoque en la concurrencia hacen que Go sea especialmente adecuado para el desarrollo de aplicaciones escalables y concurrentes.",
+        "authors": ["Robert Griesemer", "Rob Pike", "Ken Thompson"],
+        "year": 2009,
+        "paradigms": ["Multiparadigma", "Concurrencia"],
+        "logo": "https://lh3.google.com/u/0/d/1DeZBHDhy0hFRlSuPo6mXqNYjHumw6H8v=w1366-h657-iv1"
+    },
+
+    {
+        "id": "d0a60d67-7940-48c3-9519-62fe64dfe0d1",
+        "name": "Swift",
+        "description": "Swift es un lenguaje de programación moderno desarrollado por Apple para la creación de aplicaciones en sus plataformas, como iOS, macOS, watchOS y tvOS. Combina características de lenguajes como Objective-C y C, y se enfoca en la seguridad, el rendimiento y la legibilidad del código. Swift es utilizado para desarrollar aplicaciones móviles y de escritorio en el ecosistema de Apple.",
+        "authors": ["Chris Lattner"],
+        "year": 2014,
+        "paradigms": ["Multiparadigma", "Orientada a Objetos", "Funcional"],
+        "logo": "https://lh3.google.com/u/0/d/1awAo8lLuG12TKCZqWWKDmlpurdGxFWLa=w1366-h657-iv1"
+    }
+    
+]

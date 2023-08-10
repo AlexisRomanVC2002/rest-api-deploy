@@ -1,0 +1,36 @@
+### Obteniendo la informacion de todos los lenguajes ✔
+GET http://localhost:3000/api/languages
+
+### Obteniendo la informacion de un lenguaje con su id ✔
+GET http://localhost:3000/api/languages/a9f87c4b-8e6d-4f5e-9c27-3a78e4d2b309
+
+### Obteniendo la informacion de un lenguaje mediante su nombre ✔
+GET http://localhost:3000/api/languages?name=java
+
+### Obteniendo la informacion de un lenguaje segun su paradigma de programacion ✔
+GET http://localhost:3000/api/languages?paradigm=funcional
+
+### Probando la creacion de un nuevo lenguaje de programacion ✔
+POST http://localhost:3000/api/languages
+Content-Type: application/json
+
+{
+        "name": "Nuevo lenguaje",
+        "description": "El nuevo lenguaje es un lenguaje de programación ampliamente utilizado en el desarrollo web. Diseñado originalmente para agregar interactividad y dinamismo a las páginas web, JavaScript se ha convertido en un componente esencial de la creación de aplicaciones web modernas. Es un lenguaje de programación de alto nivel interpretado por los navegadores, lo que significa que se ejecuta directamente en el navegador del usuario sin necesidad de compilación previa. JavaScript se utiliza para manipular el contenido de las páginas web, responder a eventos del usuario, realizar peticiones a servidores para obtener o enviar datos, y crear efectos visuales y animaciones interactivas. Además de su uso en el front-end, JavaScript también puede ser utilizado en el desarrollo del back-end a través de entornos como Node.js.",
+        "authors": ["Brendan Eich"], 
+        "year": 2023,
+        "paradigms": ["Imperativa", "Orientada a Objetos", "Funcional", "Reactiva", "Eventos"],
+        "logo": "https://i.imgur.com/wLCZFXT.jpg"
+}
+
+### Probando la actualizacion la informacion de un lenguaje ✔
+PATCH http://localhost:3000/api/languages/dc0ae565-6b51-4618-8fe4-1df30738fa1b
+Content-Type: application/json
+
+{
+    "name": "Nuevo lenguaje JS1",
+    "description": "El nuevo lenguaje es un lenguaje de programación ampliamente utilizado en el desarrollo web. Diseñado originalmente para agregar interactividad y dinamico..."
+}
+
+### Eliminando un lenguaje mediante su id. ✔
+DELETE  http://localhost:3000/api/languages/a9f87c4b-8e6d-4f5e-9c27-3a78e4d2b309
