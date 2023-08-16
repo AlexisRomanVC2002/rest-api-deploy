@@ -12,3 +12,5 @@ app.use("/api", apiRoutes) // <- Usando las rutas importadas.
 app.listen(PORT, () => {
     console.log(`Server listening on port -> ${PORT}`)
 });
+
+module.exports = app;
