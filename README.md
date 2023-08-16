@@ -2,7 +2,7 @@
 
 **Nota:** Esta API esta realizada para que te sirva para practicar en consumir una API y poder realizar distintas operaciones ☺
 
-¡Bienvenido a la API de Información de Lenguajes de Programación! Esta API te permite acceder a detalles sobre varios lenguajes de programación. Puedes usarla para obtener información sobre lenguajes específicos, buscar lenguajes por nombre o paradigma, agregar nuevos lenguajes, actualizar detalles existentes y eliminar lenguajes del json, ya que la informacion no persiste en una base de datos sino en memoria.
+¡Bienvenido a la API de Información de Lenguajes de Programación! Esta API te permite acceder a detalles sobre varios lenguajes de programación. Puedes usarla para obtener información sobre lenguajes específicos, buscar lenguajes por nombre o paradigma, agregar nuevos lenguajes, actualizar detalles existentes y eliminar lenguajes del json, en este caso la información no se almacena en una base de datos ya que es solamente una practica pero que te puede ayudar para saber como consumir una API, pero no se puede confiar de que los datos queden almacenados para siempre ya que, si el servidor donde está alojada la API se reinicia, los datos se restableceran y tendrá nuevamente los mismos datos de fabrica.
 
 La API está implementada utilizando ExpressJS y está desplegada en Vercel para que puedas acceder a ella en cualquier momento.
 
